@@ -8,8 +8,23 @@
     <title>js-pwdgen-wannabe</title>
 </head>
 <body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-6 text-center border border-3 border-black">
+                <div class="text-light">
+                    <p>La tua password generata è:</p>
+                </div>
+                <div class="border border-1 border-black bg-grey-50">
+                    <span class="c-green" id="pass-gen">&nbsp;</span>
+                </div>
+                <div>
+                    <button class="d-block mx-auto mt-2 mb-1" onclick="generatePassword()">START</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- <p id="pass-gen"></p> -->
-    <p>La tua password generata è: <span class="c-blue" id="pass-gen"></span></p>
+    
 
 
     <script type="text/javascript" src="./js/script.js"></script>

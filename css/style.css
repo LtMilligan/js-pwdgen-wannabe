@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
-.c-blue {
-    color: blue;
+.c-green {
+    color: rgb(0, 175, 44);
+}
+
+body {
+    height: 100svh;
+    background-image: url(../img/bg-space.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-grey-50 {
+    background-color: rgba(128, 128, 128, 0.479);
 }
